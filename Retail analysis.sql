@@ -10,7 +10,7 @@ select * from[dbo].[Transactions]
 
 
 --Data prepration and understanding
---Q1
+--Q1 What is the total number of rows for each of the three tables in the database;
 --Start
 select 'Total rows in transaction table', count (transaction_id) from[dbo].[Transactions]
 union
